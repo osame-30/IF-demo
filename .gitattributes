@@ -1,0 +1,3 @@
+* -text
+# S5-75: cmd.exeがLF改行を誤読するため、配布・checkoutでもCRLFを保持する。
+*.cmd text eol=crlf

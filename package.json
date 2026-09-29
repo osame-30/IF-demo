@@ -1,0 +1,27 @@
+{
+  "name": "ingestion-frame",
+  "version": "0.1.0-demo.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "upgrade:normalize": "node --import tsx --disable-warning=ExperimentalWarning src/store/sqlite/stage6-upgrade.ts",
+    "demo:parse": "node --import tsx --disable-warning=ExperimentalWarning test/support/office-demo.ts",
+    "ui": "node --import tsx --disable-warning=ExperimentalWarning src/console/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --disable-warning=ExperimentalWarning --test \"src/**/*.test.ts\" \"test/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/yauzl": "3.4.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "saxes": "6.0.0",
+    "yauzl": "3.4.0"
+  },
+  "license": "Apache-2.0"
+}

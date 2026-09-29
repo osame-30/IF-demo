@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ingestion Frame · 運用コンソール</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar"><a class="brand" href="#" aria-label="ホーム"><span class="brand-mark">IF</span><span>Ingestion Frame<small>OPERATOR CONSOLE</small></span></a>
+<div class="workspace"><span class="dot"></span> このPCのワークスペース<small>ローカル接続 / 外部送信なし</small></div>
+<nav aria-label="メインナビゲーション"><button data-page="home" class="active"><span>◫</span> 全体状況</button><button data-page="sources"><span>▣</span> 接続フォルダ</button><button data-page="documents"><span>≡</span> 文書・中身</button><button data-page="audit"><span>◎</span> 整合性の点検</button><button data-page="maintenance"><span>⚙</span> メンテナンス</button></nav>
+<div class="sidebar-foot"><span class="tag">HUMAN IN CONTROL</span><p>判断の根拠を見てから、<br>次の一歩を決める。</p><small>Ingestion core v0.2</small></div></aside>
+<div class="shell"><header><div class="breadcrumb">ワークスペース <span>/</span> <b id="breadcrumb">全体状況</b></div><div class="connection"><span class="dot"></span><span id="connection">接続中</span><button id="refresh" class="icon-button" aria-label="最新の状態を取得">↻</button></div></header>
+<main><div id="error" class="notice error" role="alert" hidden></div><div id="live" aria-live="polite"></div><section id="content"><div class="empty">保存された状態を読み込んでいます…</div></section></main>
+<footer>原本ファイルは変更しません。削除反映は取り込み先の状態変更です。<span id="updated"></span></footer></div>
+<dialog id="modal"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="dialog-close" class="icon-button" aria-label="閉じる">×</button></div><div id="dialog-body"></div></dialog>
+<div id="toast" role="status" hidden></div><script src="/app.js" type="module"></script>
+</body></html>

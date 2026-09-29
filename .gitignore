@@ -1,0 +1,13 @@
+node_modules/
+local-data/
+.env
+.env.*
+*.pem
+*.key
+*.sqlite*
+*.db
+*.db-*
+*.log
+.claude/
+.codex/
+.DS_Store

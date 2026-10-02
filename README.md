@@ -10,7 +10,9 @@ Word（`.docx`）の本文・表、Excel（`.xlsx`）のシート・セル・数
 
 Word・Excelの内容と位置を取り出し、元ファイルの版とのつながりを保った構造化データにします。
 
-![Ingestion Frame — 出典を保つ、データ取り込み基盤](docs/assets/IF-readme-poster.png)
+https://github.com/user-attachments/assets/3b020f99-2c62-4caf-a4a4-3e78e0afff3f
+
+[動画を開く](https://github.com/user-attachments/assets/3b020f99-2c62-4caf-a4a4-3e78e0afff3f) · [サムネイル](docs/assets/IF-readme-poster.png)
 
 60秒・無音。実演は架空資料によるWord・Excelの取り込みです。動画中のRAG回答は下流システムでの利用イメージであり、この公開版に回答生成機能は含まれません。
 

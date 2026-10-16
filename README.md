@@ -10,9 +10,9 @@ Word（`.docx`）の本文・表、Excel（`.xlsx`）のシート・セル・数
 
 Word・Excelの内容と位置を取り出し、元ファイルの版とのつながりを保った構造化データにします。
 
-VIDEO_URL
+https://github.com/user-attachments/assets/7069ec9f-bb1a-45ad-bc1a-10e767be8312
 
-[動画を開く](VIDEO_URL)
+[動画を開く](https://github.com/user-attachments/assets/7069ec9f-bb1a-45ad-bc1a-10e767be8312)
 
 15秒・音あり。Ingestion Frame 全体の紹介映像です。画面の多くは架空資料による説明用の再組版で、実際のIF画面は出典の場面の1枚です。PDF・画像PDFのOCRの場面は、この公開版には含まれない機能を示しています（この公開版の対象はWord・Excel）。
 

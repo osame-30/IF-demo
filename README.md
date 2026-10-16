@@ -4,17 +4,15 @@
 
 Word（`.docx`）の本文・表、Excel（`.xlsx`）のシート・セル・数式・保存値を抽出し、原本の版と位置へ辿れます。文書取り込みを自作する開発者向けのソース公開デモです。
 
-## 60秒で見る Ingestion Frame
+## 15秒で見る Ingestion Frame
 
 **RAGを作る前に、データを整える。**
 
 Word・Excelの内容と位置を取り出し、元ファイルの版とのつながりを保った構造化データにします。
 
-https://github.com/user-attachments/assets/3b020f99-2c62-4caf-a4a4-3e78e0afff3f
+https://github.com/user-attachments/assets/7069ec9f-bb1a-45ad-bc1a-10e767be8312
 
-[動画を開く](https://github.com/user-attachments/assets/3b020f99-2c62-4caf-a4a4-3e78e0afff3f) · [サムネイル](docs/assets/IF-readme-poster.png)
-
-60秒・無音。実演は架空資料によるWord・Excelの取り込みです。動画中のRAG回答は下流システムでの利用イメージであり、この公開版に回答生成機能は含まれません。
+15秒・音あり（[動画を開く](https://github.com/user-attachments/assets/7069ec9f-bb1a-45ad-bc1a-10e767be8312)）。Ingestion Frame 全体の紹介映像です。画面の多くは架空資料による説明用の再組版で、実際のIF画面は出典の場面の1枚です。PDF・画像PDFのOCRの場面は、この公開版には含まれない機能を示しています（この公開版の対象はWord・Excel）。
 
 ## まず架空資料で試す
 
